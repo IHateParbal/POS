@@ -22,7 +22,15 @@ namespace POS
         public Login_Signup()
         {
             InitializeComponent();
-            MainFocusWindow.Navigate(new Uri("Login.xaml", UriKind.Relative));
+        }
+        public void NavigateToSignupPage()
+        {
+            MainFocusFrame.NavigationService.Navigate(new Uri("signuppage.xaml", UriKind.Relative));
+        }
+
+        public void NavigateToLoginPage()
+        {
+            MainFocusFrame.NavigationService.Navigate(new Uri("Login.xaml", UriKind.Relative));
         }
     }
 }

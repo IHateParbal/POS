@@ -26,18 +26,16 @@ namespace POS
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (Application.Current.MainWindow is MainWindow mainWindow)
-            {
-                mainWindow.MainFrame.Navigate(new Uri("Login_signup.xaml?mode=signuppage", UriKind.Relative));
-            }
+            Login_Signup loginSignupWindow = new Login_Signup();
+            loginSignupWindow.NavigateToSignupPage(); // Call a method to navigate to the signup page
+            loginSignupWindow.Show();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            if (Application.Current.MainWindow is MainWindow mainWindow)
-            {
-                mainWindow.MainFrame.Navigate(new Uri("Login_signup.xaml?mode=login", UriKind.Relative));
-            }
+            Login_Signup loginSignupWindow = new Login_Signup();
+            loginSignupWindow.NavigateToLoginPage(); // Call a method to navigate to the login page
+            loginSignupWindow.Show();
         }
     }
 }

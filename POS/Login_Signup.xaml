@@ -10,6 +10,6 @@
         <Grid.Background>
             <ImageBrush ImageSource="C:\Users\madgw\Downloads\gradient-white-monochrome-background\5617624.jpg"/>
         </Grid.Background>
-        <Frame x:Name="MainFocusWindow" NavigationUIVisibility="Hidden"/>
+        <Frame x:Name="MainFocusFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>
