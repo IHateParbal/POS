@@ -24,11 +24,5 @@ namespace POS
         {
             InitializeComponent();
         }
-
-        private void DoubleAnimation_Completed(object sender, EventArgs e)
-        {
-            var animation = (Storyboard)Resources["LabelAppearAnimation2"];
-            animation.Begin(To);
-        }
     }
 }

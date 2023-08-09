@@ -8,7 +8,7 @@
         Title="AdminDashboard" Height="1010" Width="1920" WindowStartupLocation="CenterScreen" WindowState="Maximized" >
     <Window.Resources>
         <Storyboard x:Key="LabelAnimations">
-            <DoubleAnimation Storyboard.TargetName="Welcome" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:2" Completed="DoubleAnimation_Completed" />
+            <DoubleAnimation Storyboard.TargetName="Welcome" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:2"/>
             <DoubleAnimation Storyboard.TargetName="To" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:2" BeginTime="0:0:2" />
             <DoubleAnimation Storyboard.TargetName="ADMIN" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:2" BeginTime="0:0:4" />
             <DoubleAnimation Storyboard.TargetName="View" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:2" BeginTime="0:0:6" />
