@@ -72,12 +72,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AdminDashboard.xaml.cs">
+      <DependentUpon>AdminDashboard.xaml</DependentUpon>
+    </Compile>
     <Compile Include="signuppage.xaml.cs">
       <DependentUpon>signuppage.xaml</DependentUpon>
     </Compile>
     <Compile Include="start.xaml.cs">
       <DependentUpon>start.xaml</DependentUpon>
     </Compile>
+    <Page Include="AdminDashboard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Login.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
