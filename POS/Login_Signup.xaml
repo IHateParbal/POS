@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:POS"
         mc:Ignorable="d"
-        Title="Login_Signup" Height="832" Width="1280">
+        Title="Login_Signup" Height="840" Width="1280" WindowStartupLocation="CenterScreen">
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\madgw\Downloads\gradient-white-monochrome-background\5617624.jpg"/>
+        </Grid.Background>
         <Frame x:Name="MainFocusWindow" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

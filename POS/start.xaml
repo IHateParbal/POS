@@ -1,0 +1,24 @@
+﻿<Window x:Class="POS.start"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POS"
+        mc:Ignorable="d"
+        Title="start" Height="200" Width="500" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+    </Window.Resources>
+    <Grid>
+
+        <Button Content="New System" Height="80" Width="200" FontSize="25" HorizontalAlignment="Left" Margin="25" Background="Orange" Foreground="DarkSlateGray" Click="Button_Click"/>
+        <Button Content="Existing system" Height="80" Width="200" FontSize="25" HorizontalAlignment="Right" Margin="25" Background="LightSkyBlue" Foreground="White" Click="Button_Click_1" />
+
+    </Grid>
+</Window>

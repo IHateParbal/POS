@@ -10,19 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace POS
 {
     /// <summary>
-    /// Interaction logic for Login_Signup.xaml
+    /// Interaction logic for signuppage.xaml
     /// </summary>
-    public partial class Login_Signup : Window
+    public partial class signuppage : Page
     {
-        public Login_Signup()
+        public signuppage()
         {
             InitializeComponent();
-            MainFocusWindow.Navigate(new Uri("Login.xaml", UriKind.Relative));
         }
     }
 }
