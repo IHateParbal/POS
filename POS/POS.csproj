@@ -75,6 +75,9 @@
     <Compile Include="AdminDashboard.xaml.cs">
       <DependentUpon>AdminDashboard.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AdminSIgnUpLogin.xaml.cs">
+      <DependentUpon>AdminSIgnUpLogin.xaml</DependentUpon>
+    </Compile>
     <Compile Include="signuppage.xaml.cs">
       <DependentUpon>signuppage.xaml</DependentUpon>
     </Compile>
@@ -82,6 +85,10 @@
       <DependentUpon>start.xaml</DependentUpon>
     </Compile>
     <Page Include="AdminDashboard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AdminSIgnUpLogin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
