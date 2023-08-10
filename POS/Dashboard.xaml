@@ -6,7 +6,26 @@
         xmlns:local="clr-namespace:POS"
         mc:Ignorable="d"
         Title="Dashboard" MinHeight="720" MinWidth="1280" MaxHeight="720" MaxWidth="1280"  WindowStartupLocation="CenterScreen">
-    
+    <Window.Resources>
+        <Style x:Key="CustomWindowButtonStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="White" />
+            <!-- Set the desired color -->
+            <Setter Property="Background" Value="black" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Padding" Value="5" />
+        </Style>
+    </Window.Resources>
+
+    <Window.Style>
+        <Style TargetType="Window">
+            <Setter Property="WindowChrome.WindowChrome">
+                <Setter.Value>
+                    <WindowChrome CaptionHeight="30"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Style>
 
     <Grid>
         <Grid.ColumnDefinitions>
