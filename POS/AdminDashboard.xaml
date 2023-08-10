@@ -5,6 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:POS"
         mc:Ignorable="d"
-        Title="AdminDashboard" Height="1010" Width="1920" WindowStartupLocation="CenterScreen" WindowState="Maximized" >
-    
+        Title="AdminDashboard" Height="720" Width="1280" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Frame x:Name="MainFocusWindow" NavigationUIVisibility="Hidden"/>
+    </Grid>
 </Window>

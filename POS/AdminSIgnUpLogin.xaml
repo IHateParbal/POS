@@ -5,9 +5,9 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:POS"
       mc:Ignorable="d" 
-      d:DesignHeight="1010" d:DesignWidth="1920"
+      d:DesignHeight="720" d:DesignWidth="1280"
       Title="AdminSIgnUpLogin">
-
+    
     <Page.Resources>
         <Style TargetType="TextBox">
             <Style.Resources>
@@ -29,7 +29,7 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="ContentControl">
                         <Grid>
-                            <Border CornerRadius="10" Background="Gray">
+                            <Border CornerRadius="20" Background="Gray">
                                 <ContentPresenter Content="{TemplateBinding Content}" />
                             </Border>
                         </Grid>
@@ -43,14 +43,16 @@
             <ImageBrush ImageSource="C:\Users\madgw\Downloads\gradient-white-monochrome-background\5617624.jpg"/>
         </Grid.Background>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Label x:Name="ADMIN" Content="Admin Login" FontSize="95" Foreground="Gray"  FontWeight="UltraBold" HorizontalAlignment="Center" FontFamily="Harlow Solid Italic" Margin="10"/>
+            <Label x:Name="ADMIN" Content="Admin Login" FontSize="55" Foreground="Gray"  FontWeight="UltraBold" HorizontalAlignment="Center" FontFamily="Harlow Solid Italic" Margin="10"/>
 
             <Grid>
                 <ContentControl Style="{StaticResource RoundedGridStyle}" >
-                    <StackPanel Margin="55">
-                        <TextBox x:Name="UserName" FontWeight="Bold" FontSize="20" Foreground="Gray" VerticalContentAlignment="Center" Height="60" BorderThickness="0" Margin="20" HorizontalAlignment="Left" Width="400"/>
-                        <TextBox x:Name="Password" FontWeight="Bold" FontSize="20" Foreground="Gray" VerticalContentAlignment="Center" Height="60" BorderThickness="0" Margin="20" HorizontalAlignment="Left" Width="400"/>
-                        <Button Width="300" Height="80" Background="Orange" Content="LogIn" FontSize="40" FontWeight="SemiBold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="gray" Margin="10" BorderThickness="0"/>
+                    <StackPanel Margin="20">
+                        <Label Content="Username:" Margin="25 0 0 0" FontSize="15" Foreground="White"/>
+                        <TextBox x:Name="UserName" FontWeight="Bold" FontSize="20" Foreground="Gray" VerticalContentAlignment="Center" Height="40" BorderThickness="0" Margin="10" HorizontalAlignment="Center" Width="300"/>
+                        <Label Content="Password:" Margin="25 0 0 0" FontSize="15" Foreground="White"/>
+                        <TextBox x:Name="Password" FontWeight="Bold" FontSize="20" Foreground="Gray" VerticalContentAlignment="Center" Height="40" BorderThickness="0" Margin="10" HorizontalAlignment="Center" Width="300"/>
+                        <Button Width="225" Height="50" Background="Orange" Content="LogIn" FontSize="25" FontWeight="SemiBold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="gray" Margin="10" BorderThickness="0"/>
                     </StackPanel>
                 </ContentControl>
             </Grid>

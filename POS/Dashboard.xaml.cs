@@ -9,21 +9,19 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
 namespace POS
 {
     /// <summary>
-    /// Interaction logic for AdminDashboard.xaml
+    /// Interaction logic for Dashboard.xaml
     /// </summary>
-    public partial class AdminDashboard : Window
+    public partial class Dashboard : Window
     {
-        public AdminDashboard()
+        public Dashboard()
         {
             InitializeComponent();
-            MainFocusWindow.Navigate(new Uri("AdminSignUpLogin.xaml", UriKind.Relative));
         }
     }
 }
